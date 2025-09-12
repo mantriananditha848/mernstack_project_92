@@ -1,6 +1,6 @@
 import { Container, TextInput } from '@mantine/core'
 import UrlForm from './Components/UrlForm'
-import UrlResponse from '../Components/UrlResponse';
+import UrlResponse from './Components/UrlResponse';
 import { useState } from 'react';
 
 
