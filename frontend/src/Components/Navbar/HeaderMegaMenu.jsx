@@ -21,7 +21,7 @@ import classes from './HeaderMegaMenu.module.css';
 const navLinks = [
   { to: '/', label: 'Home' },
   { to: '/profile', label: 'Profile' },
-];
+{to:'/urlShortner',label:'URL shortner'}];
 
 export function HeaderMegaMenu() {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
